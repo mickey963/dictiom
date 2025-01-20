@@ -56,6 +56,14 @@ translations = {
                     "water":"Omi",
                     "thank you":"Olakolo."},
 
+    "japanese": {
+    "hello": "konnichiwa", "thank you": "arigatou", "goodbye": "sayounara",
+    "good morning": "ohayou", "good evening": "konbanwa", "excuse me": "sumimasen",
+    "yes": "hai", "no": "iie", "love": "ai", "friend": "tomodachi", "family": "kazoku",
+    "food": "tabemono", "drink": "nomimono", "school": "gakkou", "teacher": "sensei",
+    "student": "gakusei", "time": "jikan", "japan": "nihon", "cat": "neko", "dog": "inu",
+}
+
 # Function to translate"
 }
 def translate_word():
