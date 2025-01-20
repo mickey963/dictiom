@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 
-# Dictionary with translations
+# the dictionary
 translations = {
     "Spanish": {"hello": "hola", "goodbye": "adiós", "please": "por favor", "thank you": "gracias", "yes": "si", "no": "no","sorry": "lo siento",
                 "good morning": "Buenos días", "good night": "Buenas noches", "how are you": "¿Cómo estás", "i'm fine": "Estoy bien","water": "agua",
@@ -13,7 +13,48 @@ translations = {
                 "good morning": "bonjour", "good night": "	Bonne nuit", "how are you": "Comment ça va ?", "i'm fine": "Ça va bien","water": "eau",
                "food": "Nourriture", "help": "aide", "friend": "ami(e)","excuse me": "Excusez-moi", "my name is": "Je m'appelle...", "How much is it?":"Combien ça coûte ?",
                 "What’s your name": "Comment vous appelez-vous ?", "welcome": "bienvenue", "home": "maison", "happy": "heureux"},
-
+   "german": {
+        "hello": "hallo.",
+        "goodbye": "auf Wiedersehen.",
+        "please": "bitte.",
+        "thank you": "danke.",
+        "yes": "ja.",
+        "no": "nein.",
+        "cheese":"Käse.",
+        "fish": "Fisch.",
+        "bread": "Brot.",
+        "school": "School",
+        "window": "Schule",
+        "door": "Tür",
+        "water": "Wasser",
+        "flower": "Blume",
+        "light": "Licht",
+        "heart": "Herz",
+        "mountain": "Berg",
+        "desert": "Wüste",
+        "medicine": "Medizin",
+        "refrigerator": "Kühlschrank"
+},
+   "Igala": {"what is it?":"Ewnde.",
+                    "stand":"Kwane.",
+                    "sit up":"Kwane Gwane.",
+                    "bend down":"Tekpe.",
+                    "good morning":"Olodu.",
+                    "God":"Ojo.",
+                    "amen":"Amin.",
+                    "pray":"Chadua.",
+                    "king":"Onu.",
+                    "prince":"Omonu.",
+                    "messenger":"Onuche.",
+                    "good afternoon":"Oroka.",
+                    "welcome":"Olale.",
+                    "good evening":"Olane.",
+                    "who is it?":"Enede.",
+                    "rice":"Oscapa.",
+                    "yam":"Ushu.",
+                    "beans":"Egwa.",
+                    "water":"Omi",
+                    "thank you":"Olakolo."},
 
 # Function to translate"
 }
@@ -50,11 +91,10 @@ english_label.pack(pady=5)
 english_entry = tk.Entry(root)
 english_entry.pack(pady=5)
 
-# Translate button
+#  the translate button
 translate_button = tk.Button(root, text="Translate", command=translate_word)
 translate_button.pack(pady=10)
 
-# Result display
 result_label = tk.Label(root, text="", font=("Helvetica", 12))
 result_label.pack(pady=10)
 
