@@ -84,7 +84,6 @@ def translate_word():
 root = tk.Tk()
 root.title("5 language dictionary")
 
-# Language selection dropdown
 language_label = tk.Label(root, text=" choose a language:")
 language_label.pack(pady=5)
 
@@ -92,7 +91,6 @@ language_selector = ttk.Combobox(root, values=["Select Language"] + list(transla
 language_selector.set("pick a language")
 language_selector.pack(pady=5)
 
-# English word input
 english_label = tk.Label(root, text="Enter English Word:")
 english_label.pack(pady=5)
 
