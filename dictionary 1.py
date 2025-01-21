@@ -81,7 +81,8 @@ def translate_word():
         result_label.config(text=" Translation not found.")
 
 # GUI setup
-root = tk.Tk()
+
+#  theroot = tk.Tk()
 root.title("5 language dictionary")
 
 language_label = tk.Label(root, text=" choose a language:")
@@ -96,8 +97,7 @@ english_label.pack(pady=5)
 
 english_entry = tk.Entry(root)
 english_entry.pack(pady=5)
-
-#  the translate button
+ translate button
 translate_button = tk.Button(root, text="Translate", command=translate_word)
 translate_button.pack(pady=10)
 
