@@ -83,7 +83,7 @@ def translate_word():
 # GUI setup
 root = tk.Tk()
 root.title("5 language dictionary")
-
+# language selector portion
 language_label = tk.Label(root, text=" choose a language:")
 language_label.pack(pady=5)
 
@@ -97,22 +97,7 @@ english_label.pack(pady=5)
 english_entry = tk.Entry(root)
 english_entry.pack(pady=5)
 
-#  theroot = tk.Tk()
-root.title("5 language dictionary")
-
-language_label = tk.Label(root, text=" choose a language:")
-language_label.pack(pady=5)
-
-language_selector = ttk.Combobox(root, values=["Select Language"] + list(translations.keys()), state="readonly")
-language_selector.set("pick a language")
-language_selector.pack(pady=5)
-
-english_label = tk.Label(root, text="Enter English Word:")
-english_label.pack(pady=5)
-
-english_entry = tk.Entry(root)
-english_entry.pack(pady=5)
- translate button
+ #translate button
 translate_button = tk.Button(root, text="Translate", command=translate_word)
 translate_button.pack(pady=10)
 
