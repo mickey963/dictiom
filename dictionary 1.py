@@ -63,10 +63,21 @@ translations = {
     "food": "tabemono", "drink": "nomimono", "school": "gakkou", "teacher": "sensei",
     "student": "gakusei", "time": "jikan", "japan": "nihon", "cat": "neko", "dog": "inu",
 }
-
-# Function to translate"
 }
+# Function to translate"
+def translate_word():
+    selected_language = language_selector.get()
+    english_word = english_entry.get().lower()
 
+    if selected_language == "choose a language":
+        messagebox.showerror("Error", " choose a language.")
+        return
+
+    if english_word in translations[selected_language]:
+        translated_word = translations[selected_language][english_word]
+        result_label.config(text=f'Translation: {translated_word}')
+    else:
+        result_label.config(text=" Translation not found.")
 # GUI setup
 root = tk.Tk()
 root.title("5 language dictionary")
