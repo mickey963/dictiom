@@ -35,8 +35,8 @@ translations = {
         "medicine": "Medizin",
         "refrigerator": "Kühlschrank"
 },
- 
-"Igala_dictionary" = {"what is it?":"Ewnde.",
+ "Igala": {
+                    "what is it?":"Ewnde.",
                     "stand":"Kwane.",
                     "sit up":"Kwane Gwane.",
                     "bend down":"Tekpe.",
@@ -55,8 +55,7 @@ translations = {
                     "yam":"Ushu.",
                     "beans":"Egwa.",
                     "water":"Omi",
-                    "thank you":"Olakolo."
-},
+                    "thank you":"Olakolo."},
 
     "japanese": {
     "hello": "konnichiwa", "thank you": "arigatou", "goodbye": "sayounara",
@@ -64,7 +63,7 @@ translations = {
     "yes": "hai", "no": "iie", "love": "ai", "friend": "tomodachi", "family": "kazoku",
     "food": "tabemono", "drink": "nomimono", "school": "gakkou", "teacher": "sensei",
     "student": "gakusei", "time": "jikan", "japan": "nihon", "cat": "neko", "dog": "inu",
-}
+},
 }
 # Function to translate"
 def translate_word():
