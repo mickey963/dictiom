@@ -35,26 +35,7 @@ translations = {
         "medicine": "Medizin",
         "refrigerator": "Kühlschrank"
 },
-   "Igala": {"what is it?":"Ewnde.",
-                    "stand":"Kwane.",
-                    "sit up":"Kwane Gwane.",
-                    "bend down":"Tekpe.",
-                    "good morning":"Olodu.",
-                    "God":"Ojo.",
-                    "amen":"Amin.",
-                    "pray":"Chadua.",
-                    "king":"Onu.",
-                    "prince":"Omonu.",
-                    "messenger":"Onuche.",
-                    "good afternoon":"Oroka.",
-                    "welcome":"Olale.",
-                    "good evening":"Olane.",
-                    "who is it?":"Enede.",
-                    "rice":"Oscapa.",
-                    "yam":"Ushu.",
-                    "beans":"Egwa.",
-                    "water":"Omi",
-                    "thank you":"Olakolo."},
+ 
 
     "japanese": {
     "hello": "konnichiwa", "thank you": "arigatou", "goodbye": "sayounara",
